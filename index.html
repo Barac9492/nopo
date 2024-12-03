@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOPO - Heritage Eateries</title>
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      img-src * data: blob:;
+      frame-src 'self' *.instagram.com;
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' *.instagram.com;
+      style-src 'self' 'unsafe-inline' *.instagram.com;
+      connect-src 'self' *.instagram.com;
+      font-src 'self' data:;
+    ">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
